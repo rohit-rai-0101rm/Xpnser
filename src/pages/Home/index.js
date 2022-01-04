@@ -1,13 +1,14 @@
-import React from 'react'
-import TopFold from '../../components/topFold'
-import './Home.css'
+import React from "react";
+import ExpenseList from "../../components/expense-list";
+import TopFold from "../../components/topFold";
+import "./Home.css";
 const Home = () => {
-    return (
-        <div className="home">
-<TopFold/>
-           
-        </div>
-    )
-}
+  return (
+    <div className="home">
+      <TopFold />
+      <ExpenseList/>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
